@@ -34,7 +34,7 @@ public:
 int main()
 {
     Mobile m1("Lenovo", "JAZZ");
-    Mobile m2("Samsung", "JAZZ");
+    Mobile m2("Samsung", "Zong");
     m1.display();
     m2.display();
     return 0;
