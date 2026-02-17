@@ -13,7 +13,8 @@ public:
         cout << "Enter ID:";
         cin >> ID;
         cout << "Enter name:";
-        cin >> name;
+        cin.ignore();
+        getline(cin,name);
         cout << "Enter price:";
         cin >> price;
     }
