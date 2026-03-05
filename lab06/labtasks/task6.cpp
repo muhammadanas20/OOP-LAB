@@ -1,9 +1,4 @@
-// Create:
-// University
-// Faculty (inherits University)
-// Administration
-// HOD (inherits Faculty + Administration)
-// Demonstrate all inherited functions.
+
 #include <iostream>
 using namespace std;
 class University{

@@ -1,9 +1,3 @@
-// Create your own diamond structure using:
-// Machine
-// Printer
-// Scanner
-// AllInOne
-// Show ambiguity problem.
 #include <iostream>
 using namespace std;
 class Machine {

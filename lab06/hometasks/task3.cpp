@@ -1,8 +1,4 @@
-// Create:
-// Driver
-// Mechanic
-// Technician (inherits both)
-// Demonstrate both abilities.
+
 #include <iostream>
 using namespace std;
 class Driver {

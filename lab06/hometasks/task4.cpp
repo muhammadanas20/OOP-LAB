@@ -1,8 +1,4 @@
-// Create:
-// Appliance
-// WashingMachine
-// SmartWashingMachine
-// Add a smart control function
+
 #include <iostream>
 using namespace std;
 class Appliance {
