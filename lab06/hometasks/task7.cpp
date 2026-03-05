@@ -1,9 +1,4 @@
-// Create:
-// BankAccount
-// Derive 
-// SavingsAccount using private inheritance
-// Try accessing base class data from main()
-// Explain the result
+
 #include <iostream>
 using namespace std;
 class BankAccount
