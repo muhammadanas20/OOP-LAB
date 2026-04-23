@@ -1,27 +1,27 @@
-#include <iostream>
+#include<iostream>
 using namespace std;
-// LAB TASK 1
-// Create a program using function templates that:
-// Accepts two numbers
-// Returns:
 
-// Sum
-// Difference
-// Product
 template <typename T>
-
-void Calculation(T a,T b){
-    cout << "Addition: " << a+b << endl;
-    cout << "Difference: " << a-b << endl;
-    cout << "Multiply: " << a*b << endl;
+T sum (T a, T b) {
+    return (a+b);
 }
 
+template <typename T>
+T difference (T a, T b) {
+    return (a-b);
+}
 
-int main(){
-    cout << "Integer" << endl;
-    Calculation(10,20);
-    cout << "Double" << endl;
-    Calculation(4.5f,3.5f);
+template <typename T>
+T product (T a, T b) {
+    return (a*b);
+}
 
-    return 0;
+int main () {
+    cout << "Adding two integers: " << sum(4, 5) << endl;
+    cout << "Taking difference of two integers: " << difference(4, 5) << endl;
+    cout << "Multiplying two integers: " << product(4, 5) << endl;
+
+    cout << "Adding two floats: " << sum (5.2, 2.5) << endl;
+    cout << "Taking difference of two floats: " << difference(5.2, 2.5) << endl;
+    cout << "Multiplying two floats: " << product(5.2, 2.5) << endl;
 }
